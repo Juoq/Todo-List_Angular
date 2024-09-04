@@ -1,0 +1,11 @@
+<div class="create-todo">
+  <input
+    type="text"
+    #createTodoInput
+    class="create-todo__input"
+    placeholder="Crea tu nueva tarea"
+  />
+  <button class="create-todo__button" (click)="create(createTodoInput)">
+    Crear
+  </button>
+</div>
